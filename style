@@ -1,0 +1,62 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+  color: #111;
+  background: #fff;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 1.4rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+a:hover {
+  border-bottom: 1px solid #000;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Optional Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f0f0f;
+    color: #eee;
+  }
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid #666;
+  }
+}
+
