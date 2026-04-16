@@ -28,17 +28,30 @@ ul {
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+  color: #555;
 }
 
 a {
-  color: #000;
+  color: #0066cc;
   text-decoration: none;
   border-bottom: 1px solid #ccc;
 }
 
 a:hover {
-  border-bottom: 1px solid #000;
+  color: #0052a3;
+  border-bottom: 1px solid #0052a3;
+}
+
+.red-link {
+  color: #c62828;
+  border-bottom: 1px solid #c62828;
+}
+
+.red-link:hover {
+  color: #9f1f1f;
+  border-bottom: 1px solid #9f1f1f;
 }
 
 footer {
@@ -55,8 +68,22 @@ footer {
   }
 
   a {
-    color: #fff;
-    border-bottom: 1px solid #666;
+    color: #66b2ff;
+    border-bottom: 1px solid #66b2ff;
+  }
+
+  a:hover {
+    color: #99ccff;
+    border-bottom: 1px solid #99ccff;
+  }
+
+  .red-link {
+    color: #ff7b7b;
+    border-bottom: 1px solid #ff7b7b;
+  }
+
+  .red-link:hover {
+    color: #ff9a9a;
+    border-bottom: 1px solid #ff9a9a;
   }
 }
-
